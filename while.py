@@ -15,4 +15,13 @@ def py_break(word):
     print("the end")
 
 
+def py_cont(word):
+    for val in word:
+        if val == "i":
+            continue
+        print(val)
+    print("the end")
+
+
 py_break(str)
+py_cont(str)
